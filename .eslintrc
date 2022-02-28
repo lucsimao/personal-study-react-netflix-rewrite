@@ -1,0 +1,12 @@
+{
+  "env": {
+    "jest": true,
+    "jasmine": true
+  },
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "no-console": "error",
+    "sort-imports": "error"
+  }
+}
