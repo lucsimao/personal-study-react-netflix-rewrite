@@ -10,6 +10,7 @@ describe('Header', () => {
 
       const result = screen.getByText('Netflix');
 
+      expect(result.tagName).toBe('A');
       expect(result).toBeInTheDocument();
     });
   });
