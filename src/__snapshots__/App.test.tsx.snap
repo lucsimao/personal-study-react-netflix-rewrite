@@ -4,6 +4,19 @@ exports[`renders learn react link 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-color: black;
+  height: 41px;
+  padding: 0px 4% 0px 4%;
+}
+
+.c1 {
   cursor: pointer;
   content: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg');
   height: 2em;
@@ -11,25 +24,46 @@ Object {
 
 <body>
     <div>
-      <a
+      <div
         class="c0"
-        data-testid="netflix-logo"
-        href="/"
-      />
+      >
+        <a
+          class="c1"
+          data-testid="netflix-logo"
+          href="/"
+        />
+      </div>
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-color: black;
+  height: 41px;
+  padding: 0px 4% 0px 4%;
+}
+
+.c1 {
   cursor: pointer;
   content: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg');
   height: 2em;
 }
 
 <div>
-    <a
+    <div
       class="c0"
-      data-testid="netflix-logo"
-      href="/"
-    />
+    >
+      <a
+        class="c1"
+        data-testid="netflix-logo"
+        href="/"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
