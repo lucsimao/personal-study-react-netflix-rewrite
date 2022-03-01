@@ -3,21 +3,33 @@
 exports[`renders learn react link 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  cursor: pointer;
+  content: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg');
+  height: 2em;
+}
+
+<body>
     <div>
       <a
-        href=""
-      >
-        Netflix
-      </a>
+        class="c0"
+        data-testid="netflix-logo"
+        href="/"
+      />
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  cursor: pointer;
+  content: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg');
+  height: 2em;
+}
+
+<div>
     <a
-      href=""
-    >
-      Netflix
-    </a>
+      class="c0"
+      data-testid="netflix-logo"
+      href="/"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
