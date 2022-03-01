@@ -8,7 +8,7 @@ describe('Header', () => {
     it('should show Netflix label ', () => {
       render(<Header />);
 
-      const result = screen.getByText('Netflix');
+      const result = screen.getByTestId('netflix-logo');
 
       expect(result.tagName).toBe('A');
       expect(result).toBeInTheDocument();
