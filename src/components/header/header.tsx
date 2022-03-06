@@ -1,4 +1,5 @@
 import NavigationItems from './navigation-items';
+import OptionsMenu from './options-menu';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -23,6 +24,7 @@ export default function Header() {
       <Container>
         <Logo data-testid="netflix-logo" href="/" />
         <NavigationItems />
+        <OptionsMenu />
       </Container>
     </>
   );
