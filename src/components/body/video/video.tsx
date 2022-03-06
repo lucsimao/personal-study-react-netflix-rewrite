@@ -5,6 +5,7 @@ import {
   Description,
   MoreInfoButton,
   SinopsisContainer,
+  TitleContainer,
   VideoContainer,
   VideoWrapper,
 } from './styled';
@@ -24,6 +25,7 @@ const Video: React.FC<{ videoUrl: string }> = (props) => {
   return (
     <Container>
       <Description>
+        <TitleContainer>Clifford: O Gigante Cão Vermelho</TitleContainer>
         <SinopsisContainer>
           Baseado na adorada história dos livros escolares escritos por Norman
           Bridwell, Clifford irá mostrar ao mundo como é possível amar em

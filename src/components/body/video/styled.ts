@@ -109,3 +109,15 @@ export const SinopsisContainer = styled.div`
   font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 25px;
 `;
+
+export const TitleContainer = styled.div`
+  color: #fff;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  font-size: 3.5vw;
+  text-shadow: 4px 4px 8px rgb(0 0 0);
+  margin-top: 0.1vw;
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+`;
