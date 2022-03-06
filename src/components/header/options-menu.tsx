@@ -2,7 +2,7 @@ import { FaCaretDown, FaSearch } from 'react-icons/fa';
 import React, { useState } from 'react';
 
 import { IoMdNotifications } from 'react-icons/io';
-import Item from './item';
+import Item from './item/item';
 import { Items } from './navigation-items';
 import styled from 'styled-components';
 

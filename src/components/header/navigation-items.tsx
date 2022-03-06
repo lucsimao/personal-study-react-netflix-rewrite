@@ -1,4 +1,4 @@
-import Item from './item';
+import Item from './item/item';
 import React from 'react';
 import styled from 'styled-components';
 
