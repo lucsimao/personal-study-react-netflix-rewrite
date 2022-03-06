@@ -1,6 +1,5 @@
-import { SelectedItem, StyledItem } from './styled';
+import { Container, SelectedItem, StyledItem } from './styled';
 
-import { Container } from '../styled';
 import React from 'react';
 
 export default function Item(props: {

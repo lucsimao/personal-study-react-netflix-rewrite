@@ -1,18 +1,6 @@
-import Item from './item/item';
+import Item from '../item/item';
+import { Items } from './styled';
 import React from 'react';
-import styled from 'styled-components';
-
-export const Items = styled.ul`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  color: white;
-  user-select: none;
-  cursor: default;
-`;
 
 export default function NavigationItems() {
   return (

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import { IoMdNotifications } from 'react-icons/io';
 import Item from './item/item';
-import { Items } from './navigation-items';
+import { Items } from './navigation-items/styled';
 import styled from 'styled-components';
 
 const Container = styled.div`
