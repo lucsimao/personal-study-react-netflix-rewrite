@@ -2,7 +2,7 @@ import Item from './item';
 import React from 'react';
 import styled from 'styled-components';
 
-const Items = styled.ul`
+export const Items = styled.ul`
   display: flex;
   flex-direction: row;
   align-items: center;
