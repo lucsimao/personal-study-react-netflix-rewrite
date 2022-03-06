@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c3 {
+  list-style-type: none;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 1.2;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.c4 {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c5 {
+  font-weight: 700;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: black;
+  height: 68px;
+  padding: 0px 60px 0px 60px;
+}
+
+.c1 {
+  cursor: pointer;
+  content: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg');
+  height: 1.563em;
+  margin-right: 25px;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <a
+          class="c1"
+          data-testid="netflix-logo"
+          href="/"
+        />
+        <ul
+          class="c2"
+          data-testid="navigation-items"
+        >
+          <li
+            class="c3"
+          >
+            <a
+              class="c4 c5"
+              href="/browse"
+            >
+              Início
+            </a>
+          </li>
+          <li
+            class="c3"
+          >
+            <a
+              class="c4"
+              href="/browse/genre/83"
+            >
+              Séries
+            </a>
+          </li>
+          <li
+            class="c3"
+          >
+            <a
+              class="c4"
+              href="/browse/genre/34399"
+            >
+              Filmes
+            </a>
+          </li>
+          <li
+            class="c3"
+          >
+            <a
+              class="c4"
+              href="/latest"
+            >
+              Bombando
+            </a>
+          </li>
+          <li
+            class="c3"
+          >
+            <a
+              class="c4"
+              href="/browse/my-list"
+            >
+              Minha lista
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": .c3 {
+  list-style-type: none;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 1.2;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.c4 {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c5 {
+  font-weight: 700;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: black;
+  height: 68px;
+  padding: 0px 60px 0px 60px;
+}
+
+.c1 {
+  cursor: pointer;
+  content: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg');
+  height: 1.563em;
+  margin-right: 25px;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <a
+        class="c1"
+        data-testid="netflix-logo"
+        href="/"
+      />
+      <ul
+        class="c2"
+        data-testid="navigation-items"
+      >
+        <li
+          class="c3"
+        >
+          <a
+            class="c4 c5"
+            href="/browse"
+          >
+            Início
+          </a>
+        </li>
+        <li
+          class="c3"
+        >
+          <a
+            class="c4"
+            href="/browse/genre/83"
+          >
+            Séries
+          </a>
+        </li>
+        <li
+          class="c3"
+        >
+          <a
+            class="c4"
+            href="/browse/genre/34399"
+          >
+            Filmes
+          </a>
+        </li>
+        <li
+          class="c3"
+        >
+          <a
+            class="c4"
+            href="/latest"
+          >
+            Bombando
+          </a>
+        </li>
+        <li
+          class="c3"
+        >
+          <a
+            class="c4"
+            href="/browse/my-list"
+          >
+            Minha lista
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
