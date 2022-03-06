@@ -1,7 +1,7 @@
-import Movie from './movie';
-import MovieList from './movie-list';
+import Movie from './movie/movie';
+import MovieList from './movie-list/movie-list';
 import React from 'react';
-import Video from './video';
+import Video from './video/video';
 import styled from 'styled-components';
 
 export const MoviesContainer = styled.ul`
