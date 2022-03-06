@@ -25,7 +25,7 @@ export const ButtonContainer = styled.div`
 
 export const VideoContainer = styled.div`
   position: absolute;
-
+  top: 0;
   z-index: -1;
 `;
 
