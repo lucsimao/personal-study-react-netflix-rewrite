@@ -1,7 +1,7 @@
 import { Container, Logo } from './styled';
 
 import NavigationItems from './navigation-items/navigation-items';
-import OptionsMenu from './options-menu';
+import OptionsMenu from './options-menu/options-menu';
 import React from 'react';
 
 export default function Header() {
