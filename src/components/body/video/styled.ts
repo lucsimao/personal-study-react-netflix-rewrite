@@ -18,7 +18,6 @@ export const Description = styled.div`
 
 export const ButtonContainer = styled.div`
   margin-bottom: 16vw;
-
   bottom: 0;
   display: flex;
 `;
@@ -26,17 +25,39 @@ export const ButtonContainer = styled.div`
 export const VideoContainer = styled.div`
   position: absolute;
   top: 0;
+  overflow: hidden;
   z-index: -1;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.2) 0,
+      rgba(20, 20, 20, 0.2) 50%,
+      rgba(20, 20, 20, 0.6) 80%,
+      rgba(20, 20, 20, 0.9) 90%,
+      #141414 95%,
+      #141414 100%
+    );
+  }
 `;
 
 export const VideoWrapper = styled.iframe`
   width: 100vw;
   height: 56.25vw;
-
   overflow: hidden;
   pointer-events: none;
   top: 0px;
   z-index: -1;
+
+  margin-bottom: -10vh;
 `;
 
 export const AssistirButton = styled.button`
@@ -59,7 +80,6 @@ export const AssistirButton = styled.button`
   }
   span {
     margin-left: 14px;
-
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.7em;
@@ -68,7 +88,6 @@ export const AssistirButton = styled.button`
 
 export const MoreInfoButton = styled.button`
   margin-left: 15px;
-
   bottom: 0;
   display: flex;
   flex-direction: row;
@@ -82,16 +101,16 @@ export const MoreInfoButton = styled.button`
   border-radius: 4px;
   cursor: pointer;
   overflow: visible;
-
   background-color: rgba(109, 109, 110, 0.7);
+  color: white;
+
   &:hover {
     background-color: rgba(49, 49, 50, 0.7);
   }
-  color: white;
 
   span {
     margin-left: 14px;
-
+    white-space: nowrap;
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.76em;
