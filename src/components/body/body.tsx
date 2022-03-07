@@ -1,13 +1,13 @@
 import Movie from './movie/movie';
 import MovieList from './movie-list/movie-list';
 import { MoviesContainer } from './styled';
+import PromotionalVideo from './promotional-video/promotional-video';
 import React from 'react';
-import Video from './video/video';
 
 const Body = () => {
   return (
     <div>
-      <Video videoUrl="xlGOCCValCs" />
+      <PromotionalVideo videoUrl="xlGOCCValCs" />
       <MoviesContainer>
         <MovieList title="Séries baseadas em livros">
           <Movie url={'iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg'} />

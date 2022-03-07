@@ -21,7 +21,7 @@ const formatVideoUrl = (videoUrl: string) => {
   return `${youtubeUrl}${videoUrl}${options}${videoUrl}`;
 };
 
-const Video: React.FC<{ videoUrl: string }> = (props) => {
+const PromotionalVideo: React.FC<{ videoUrl: string }> = (props) => {
   return (
     <Container>
       <Description>
@@ -54,4 +54,4 @@ const Video: React.FC<{ videoUrl: string }> = (props) => {
   );
 };
 
-export default Video;
+export default PromotionalVideo;
