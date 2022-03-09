@@ -17,12 +17,16 @@ export const Avatar = styled.a`
   border-radius: 4px;
 `;
 
-export const Caret = styled(FaCaretDown)`
+interface CaretParams {
+  $isHover: boolean;
+}
+
+export const Caret = styled(FaCaretDown)<CaretParams>`
   fill: 'white';
   margin-left: 10px;
   transform: rotate(
-    ${(props: { isHovered: boolean }) => {
-      return props.isHovered ? '180deg' : '0deg';
+    ${(props: CaretParams) => {
+      return props.$isHover ? '180deg' : '0deg';
     }}
   );
   transition: 367ms;

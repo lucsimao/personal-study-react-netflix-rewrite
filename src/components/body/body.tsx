@@ -1,5 +1,7 @@
+import { Category } from '../../domain/models/category';
 import Movie from './movie/movie';
 import MovieList from './movie-list/movie-list';
+import { Movie as MovieModel } from '../../domain/models/movie';
 import { MoviesContainer } from './styled';
 import PromotionalVideo from './promotional-video/promotional-video';
 import React from 'react';
@@ -74,15 +76,15 @@ const categories = [
   },
 ];
 
-const Body = () => {
+const Body: React.FC<{ categories: Category[] }> = (props) => {
   return (
     <div>
       <PromotionalVideo {...movie} />
       <MoviesContainer>
-        {categories.map((category, index) => (
+        {props.categories.map((category, index) => (
           <MovieList key={index} title={category.title}>
-            {category.movies.map((movie, index) => (
-              <Movie key={index} url={movie.videoUrl} />
+            {category.movies.map((movie: MovieModel, index) => (
+              <Movie key={index} url={movie.imagePath} />
             ))}
           </MovieList>
         ))}
