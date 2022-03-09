@@ -35,7 +35,7 @@ const getCategories = async (httpclient: HttpClient): Promise<Category[]> => {
 const getMovies = async (
   httpClient: HttpClient,
   endpoint: string,
-  maxNumber = 7
+  maxNumber = 12
 ): Promise<MovieModel[]> => {
   const params = '?api_key=8e5c74cb2e4df6afe8f6aa1c6ac326ff&language=pt-br';
   const response = await httpClient.get<{ results: any[] }>(
@@ -46,7 +46,7 @@ const getMovies = async (
   const result: MovieModel[] = movies.map((movie) => ({
     title: movie.title,
     overview: movie.overview,
-    imagePath: movie['backdrop_path'],
+    imagePath: movie['poster_path'],
   }));
 
   return result;
