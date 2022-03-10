@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-// const baseURL = 'https://image.tmdb.org/t/p/w355_and_h200_multi_faces/';
 const baseURL = 'https://image.tmdb.org/t/p/w200/';
 
 export const MovieImage = styled.a`
