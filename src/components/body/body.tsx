@@ -6,17 +6,12 @@ import { MoviesContainer } from './styled';
 import PromotionalVideo from './promotional-video/promotional-video';
 import React from 'react';
 
-const movie = {
-  title: 'Clifford: O Gigante Cão Vermelho',
-  sinopsys: `Baseado na adorada história dos livros escolares escritos por Norman
-        Bridwell, Clifford irá mostrar ao mundo como é possível amar em grande!`,
-  videoUrl: 'xlGOCCValCs',
-};
-
-const Body: React.FC<{ categories: Category[] }> = (props) => {
+const Body: React.FC<{ categories: Category[]; mainMovie: MovieModel }> = (
+  props
+) => {
   return (
     <div>
-      <PromotionalVideo {...movie} />
+      <PromotionalVideo {...props.mainMovie} />
       <MoviesContainer>
         {props.categories.map((category, index) => (
           <MovieList key={index} title={category.title}>
