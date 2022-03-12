@@ -9,7 +9,7 @@ export const getMovies = async (
   endpoint: string,
   maxNumber = 12
 ): Promise<Movie[]> => {
-  const params = '?api_key=8e5c74cb2e4df6afe8f6aa1c6ac326ff&language=pt-br';
+  const params = '?api_key=8e5c74cb2e4df6afe8f6aa1c6ac326ff&language=en';
   const response = await httpClient.get<{ results: any[] }>(
     `${URL}${endpoint}${params}`
   );
@@ -24,7 +24,7 @@ export const getMovie = async (
   httpClient: HttpClient,
   endpoint: string
 ): Promise<Movie> => {
-  const params = '?api_key=8e5c74cb2e4df6afe8f6aa1c6ac326ff&language=pt-br';
+  const params = '?api_key=8e5c74cb2e4df6afe8f6aa1c6ac326ff&language=en';
   const response = await httpClient.get<any>(`${URL}${endpoint}${params}`);
 
   const movie = response;
