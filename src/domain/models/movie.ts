@@ -3,5 +3,6 @@ export interface Movie {
   title: string;
   overview: string;
   imagePath: string;
+  backdropImagePath: string;
   videoUrl?: string;
 }

@@ -9,6 +9,7 @@ import React from 'react';
 const Body: React.FC<{ categories: Category[]; mainMovie: MovieModel }> = (
   props
 ) => {
+  console.log(props.categories);
   return (
     <div>
       <PromotionalVideo {...props.mainMovie} />
@@ -16,7 +17,7 @@ const Body: React.FC<{ categories: Category[]; mainMovie: MovieModel }> = (
         {props.categories.map((category, index) => (
           <MovieList key={index} title={category.title}>
             {category.movies.map((movie: MovieModel, index) => (
-              <Movie key={index} url={movie.imagePath} />
+              <Movie key={index} movie={movie} />
             ))}
           </MovieList>
         ))}

@@ -14,6 +14,7 @@ const movie: Movie = {
   overview: `Baseado na adorada história dos livros escolares escritos por Norman
         Bridwell, Clifford irá mostrar ao mundo como é possível amar em grande!`,
   imagePath: 'g51VeVAIM7q9ZqpZRlPEqqhLThR.jpg',
+  backdropImagePath: 'Wlwnhn5sXUIwlxpJgWszT622PS.jpg',
   videoUrl: 'xlGOCCsValCs',
 };
 

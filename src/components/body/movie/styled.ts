@@ -10,3 +10,9 @@ export const MovieImage = styled.a`
     width: 14vw;
   }
 `;
+
+export const DetailedMovieImage = styled.a`
+  content: url(${(props: { url: string }) => baseURL + props.url});
+  border-radius: 0.3vw;
+  width: 18vw;
+`;

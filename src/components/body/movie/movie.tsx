@@ -1,10 +1,20 @@
-import { MovieImage } from './styled';
-import React from 'react';
+import { DetailedMovieImage, MovieImage } from './styled';
+import React, { useState } from 'react';
 
-const Movie = (props: { url: string }) => {
+import { Movie as MovieModel } from '../../../domain/models/movie';
+
+const Movie = (props: { movie: MovieModel }) => {
+  const [isHovered, setIsHovered] = useState(false);
   return (
-    <li>
-      <MovieImage url={props.url} />
+    <li
+      onMouseLeave={() => setIsHovered(false)}
+      onMouseOver={() => setIsHovered(true)}
+    >
+      {isHovered ? (
+        <DetailedMovieImage url={props.movie.backdropImagePath} />
+      ) : (
+        <MovieImage url={props.movie.imagePath} />
+      )}
     </li>
   );
 };

@@ -33,6 +33,7 @@ export const getMovie = async (
     title: movie.title,
     overview: movie.overview,
     imagePath: movie['poster_path'],
+    backdropImagePath: movie['backdrop_path'],
   };
 
   return result;
@@ -69,6 +70,7 @@ const mapApiMoviesToDomain = (movies: any[]): Movie[] => {
         title: movie.title,
         overview: movie.overview,
         imagePath: movie['poster_path'],
+        backdropImagePath: movie['backdrop_path'],
       } as Movie)
   );
 
