@@ -11,7 +11,7 @@ const CaretIcon = () => {
         onMouseLeave={() => setIsHovered(false)}
         onMouseOver={() => setIsHovered(true)}
         size={15}
-        isHovered={isHovered}
+        $isHover={isHovered}
       />
     </>
   );

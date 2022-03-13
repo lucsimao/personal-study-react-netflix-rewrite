@@ -3,11 +3,14 @@ import './index.css';
 import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createHttpClient } from './factories/http-client-factory';
 import reportWebVitals from './reportWebVitals';
+
+const httpClient = createHttpClient();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App httpClient={httpClient} />
   </React.StrictMode>,
   document.getElementById('root')
 );
