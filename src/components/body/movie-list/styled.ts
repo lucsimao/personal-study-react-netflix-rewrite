@@ -21,7 +21,8 @@ export const Container = styled.div`
 export const List = styled.ul`
   display: flex;
   flex-direction: row;
-  align-content: flex-start;
+  /* align-items: center;
+  align-content: space-between; */
 
   li {
     margin-top: 10px;

@@ -1,13 +1,7 @@
 import { Container, VideoWrapper } from './styled';
 
 import React from 'react';
-
-const formatVideoUrl = (videoUrl: string) => {
-  const youtubeUrl = 'https://www.youtube.com/embed/';
-  const options =
-    '?version=3&rel=0&autoplay=1&controls=0&&showinfo=0&loop=1&mute=1&start=50&showinfo=0&color=white&iv_load_policy=3&playlist=';
-  return `${youtubeUrl}${videoUrl}${options}${videoUrl}`;
-};
+import { formatVideoUrl } from '../../../../services/movies-service';
 
 const Video: React.FC<{ videoUrl: string }> = (props) => {
   return (

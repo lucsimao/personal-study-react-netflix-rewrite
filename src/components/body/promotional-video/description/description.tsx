@@ -9,13 +9,29 @@ import {
 
 import { CgInfo } from 'react-icons/cg';
 import { FaPlay } from 'react-icons/fa';
+import { IMAGE_BASE_URL } from '../../../config';
+import { Movie } from '../../../../domain/models/movie';
 import React from 'react';
+import styled from 'styled-components';
 
-const Description: React.FC<{ title: string; sinopsys: string }> = (props) => {
+export const LogoImage = styled.a`
+  content: url(${(props: { url: string }) => IMAGE_BASE_URL + props.url});
+  height: 8em;
+  width: 100%;
+  position: relative;
+  margin-bottom: 18px;
+`;
+
+const Description: React.FC<Movie> = (props) => {
   return (
     <Container>
-      <TitleContainer>{props.title}</TitleContainer>
-      <SinopsisContainer>{props.sinopsys}</SinopsisContainer>
+      {props.logo ? (
+        <LogoImage url={props.logo} />
+      ) : (
+        <TitleContainer>{props.title}</TitleContainer>
+      )}
+
+      <SinopsisContainer>{props.overview}</SinopsisContainer>
       <ButtonContainer>
         <AssistirButton>
           <FaPlay size={'2.2em'} />

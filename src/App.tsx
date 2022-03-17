@@ -16,6 +16,11 @@ const movie: Movie = {
   imagePath: 'g51VeVAIM7q9ZqpZRlPEqqhLThR.jpg',
   backdropImagePath: 'Wlwnhn5sXUIwlxpJgWszT622PS.jpg',
   videoUrl: 'xlGOCCsValCs',
+  genres: ['Comédia', 'Infantil'],
+  budget: '1000',
+  duration: 97,
+  relevance: 7.3,
+  logo: '/vekiAaNDtvkTKF9R7DRaqR9IPVe.png',
 };
 
 const App: React.FC<{ httpClient: HttpClient }> = (props) => {

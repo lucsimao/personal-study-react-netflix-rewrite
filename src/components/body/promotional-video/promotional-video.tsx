@@ -7,7 +7,7 @@ import Video from './video/video';
 const PromotionalVideo: React.FC<Movie> = (props) => {
   return (
     <Container>
-      <Description title={props.title} sinopsys={props.overview} />
+      <Description {...props} />
       <Video videoUrl={props.videoUrl ?? ''} />
     </Container>
   );

@@ -9,7 +9,6 @@ import React from 'react';
 const Body: React.FC<{ categories: Category[]; mainMovie: MovieModel }> = (
   props
 ) => {
-  console.log(props.categories);
   return (
     <div>
       <PromotionalVideo {...props.mainMovie} />
